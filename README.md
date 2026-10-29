@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/redactkit-spm", from: "3.4.0"),
+    .package(url: "https://github.com/sentinelden/redactkit-spm", from: "4.0.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
