@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "RedactKitSDK",   // 4.0.0
-            url: "https://api.sentinelden.com/spm/redactkit_sdk/4.0.0/RedactKitSDK.xcframework.zip",
-            checksum: "13b1b48b3eac2102ebb2c4010de25419c4436140c29d1484ab1cd92dcfa3997a"
+            name: "RedactKitSDK",   // 5.0.0
+            url: "https://api.sentinelden.com/spm/redactkit_sdk/5.0.0/RedactKitSDK.xcframework.zip",
+            checksum: "5d3ce205a109aa55676f916c07472db92bb200d21c952000a24579b59b73f0d8"
         ),
     ]
 )
