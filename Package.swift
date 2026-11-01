@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "RedactKitSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "RedactKitSDK", targets: ["RedactKitSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "RedactKitSDK",   // 6.0.0
-            url: "https://api.sentinelden.com/spm/redactkit_sdk/6.0.0/RedactKitSDK.xcframework.zip",
-            checksum: "fc9d3e7894f7cc16f47be5fa70ecae0d7fcfb7e9d5fa6e71d4dba2f7ef9894e1"
+            name: "RedactKitSDK",   // 7.0.0
+            url: "https://api.sentinelden.com/spm/redactkit_sdk/7.0.0/RedactKitSDK.xcframework.zip",
+            checksum: "b2e06e204cca17122472e737230e81ae777932b8312cd3c06d046dfc01e737a3"
         ),
     ]
 )
